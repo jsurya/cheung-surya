@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Our Story
 permalink: /about/
 ---
 

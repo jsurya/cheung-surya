@@ -46,6 +46,8 @@ navbar:
     url: /  #url
   - title: Our Story #Label
     url: /about/  #url
+  - title: Details #Label
+    url: /details/  #url
    
 footer:
   links:
