@@ -38,6 +38,14 @@ googlefonts:
 # B. Navigation
 navbar:
   style :  dual
+  brand:
+    title :  Cheung x Surya
+    url: /
+  nav:
+  - title: Home #Label
+    url: /  #url
+  - title: Our Story #Label
+    url: /about/  #url
    
 footer:
   links:
@@ -46,12 +54,12 @@ footer:
       url:  "cheungsurya@gmail.com"
   nav:
   - title: Home #Label
-    url: /home/  #url
+    url: /  #url
 
 # Theme and colors
 chulapa-skin:
-  skin         :  academia
-
+  skin         :  lux
+    
 defaults:
   -
     scope:
