@@ -3,7 +3,7 @@ layout: default
 title: Details
 permalink: /details/
 ---
-![Invitation](https://github.com/jsurya/cheung-surya/blob/main/img/celebrityedge-inv.png?raw=true){: style="display:block; margin-left:auto; margin-right:auto;" width="70%" }
+![Invitation](https://github.com/jsurya/cheung-surya/blob/main/img/celebrityedge-inv.png?raw=true){: style="display:block; margin-left:auto; margin-right:auto;" width="100%" }
 
 # Itinerary
 {: style="text-align: center"}
@@ -24,4 +24,5 @@ permalink: /details/
 {: style="text-align: center"}
 
 
-![Itinerary](https://github.com/jsurya/cheung-surya/blob/main/img/celebrityedge-map.png?raw=true){: style="display:block; margin-left:auto; margin-right:auto;" width="70%" }
+![Itinerary](https://github.com/jsurya/cheung-surya/blob/main/img/celebrityedge-map.png?raw=true){: style="display:block; margin-left:auto; margin-right:auto;" width="100%" }
+
