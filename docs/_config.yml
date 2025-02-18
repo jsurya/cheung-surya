@@ -46,9 +46,9 @@ navbar:
   - title: Home #Label
     url: /  #url
   - title: Our Story #Label
-    url: /  #url
+    url: /#about  #url
   - title: Details #Label
-    url: /  #url
+    url: /#details  #url
    
 footer:
   links:
