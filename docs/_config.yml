@@ -29,7 +29,6 @@ url: "https://jsurya.github.io" # the base hostname & protocol for your site, e.
 # theme: chulapa-jekyll
 remote_theme: dieghernan/chulapa
 plugins:
-- jekyll-feed
 - jekyll-remote-theme
 - jekyll-include-cache
 
@@ -46,9 +45,13 @@ navbar:
   - title: Home #Label
     url: /  #url
   - title: Our Story #Label
-    url: /#about  #url
+    url: /#our-story  #url
   - title: Details #Label
     url: /#details  #url
+  vars:
+    chulapa-landingpage-color: light
+    landingpage-chulapa-bg-color: light
+    body-bg: light
    
 footer:
   links:
@@ -64,15 +67,6 @@ footer:
 chulapa-skin:
   skin         :  lux
   autothemer  : true
-    
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-      header_type: "base"
-      include_on_search   : false
 
 # Exclude from processing.
 # The following items will not be processed, by default.

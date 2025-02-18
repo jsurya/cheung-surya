@@ -1,6 +1,0 @@
----
-
-title: Our Story
----
-# Our Story
-{: style="text-align: center"}
