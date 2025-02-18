@@ -29,6 +29,7 @@ url: "https://jsurya.github.io" # the base hostname & protocol for your site, e.
 # theme: chulapa-jekyll
 remote_theme: dieghernan/chulapa
 plugins:
+- jekyll-feed
 - jekyll-remote-theme
 - jekyll-include-cache
 
@@ -37,7 +38,7 @@ googlefonts:
 
 # B. Navigation
 navbar:
-  style :  dual
+  style :  fab
   brand:
     title :  Cheung x Surya
     url: /
@@ -45,9 +46,9 @@ navbar:
   - title: Home #Label
     url: /  #url
   - title: Our Story #Label
-    url: /about/  #url
+    url: /  #url
   - title: Details #Label
-    url: /details/  #url
+    url: /  #url
    
 footer:
   links:

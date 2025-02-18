@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Details
-permalink: /details/
 ---
+# Details
+
 ![Invitation](https://github.com/jsurya/cheung-surya/blob/main/img/celebrityedge-inv.png?raw=true){: style="display:block; margin-left:auto; margin-right:auto;" width="100%" }
 
 # Itinerary
