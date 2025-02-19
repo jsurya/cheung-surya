@@ -12,28 +12,28 @@ project_links:
 ---
 
 <div style="text-align: center;" markdown="1">
-<h1> Voyage With Us <small class="text-muted">7 nights on the Alaskan Seas</small></h1>
+<h1 style="color: #e8e8e8;"> Voyage With Us <small class="text-muted">on the Alaskan Seas</small></h1>
 
-# Our Story
+<h1 style="color:  #e8e8e8;"><a name="our-story"> Our Story </a></h1>
 
-zzz
+<p class="lead"> zzz </p>
 
-# Details
+<h1 style="color:  #e8e8e8;"><a name="details"> Details </a></h1>
 
 ![Invitation](https://github.com/jsurya/cheung-surya/blob/main/img/celebrityedge-inv.png?raw=true){: style="display:block; margin-left:auto; margin-right:auto;" width="100%" }
 
-## Itinerary
+<h2 style="color:  #e8e8e8;">Itinerary</h2>
 
-**Wedding Date**: September 13, 2025 @ 1:00 PM
+<strong>Wedding Date</strong>: September 13, 2025 @ 1:00 PM PDT
 
-**Cruise Departure**: September 12, 2025
+<strong>Cruise Departure</strong>: September 12, 2025
 
-**Port of Departure**: Seattle, Washington
+<strong>Port of Departure</strong>: Seattle, Washington
 
-**Port of Return**: Vancouver, British Columbia
+<strong>Port of Return</strong>: Vancouver, British Columbia
 
-**Destination**: Alaska
+<strong>Destination</strong>: Alaska
 
-![Ports of Call](https://github.com/jsurya/cheung-surya/blob/main/imgSEA_KTN_JNU_SGY_ENC_YVR_1200x430.gif?raw=true){: style="display:block; margin-left:auto; margin-right:auto;" width="100%" }
+![Ports of Call](https://github.com/jsurya/cheung-surya/blob/main/img/SEA_KTN_JNU_SGY_ENC_YVR_1200x430.gif?raw=true){: style="display:block; margin-left:auto; margin-right:auto;" width="100%" }
 
 </div>

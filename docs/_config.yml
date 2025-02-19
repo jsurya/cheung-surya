@@ -48,10 +48,6 @@ navbar:
     url: /#our-story  #url
   - title: Details #Label
     url: /#details  #url
-  vars:
-    chulapa-landingpage-color: light
-    landingpage-chulapa-bg-color: light
-    body-bg: light
    
 footer:
   links:
@@ -61,12 +57,15 @@ footer:
       color: 
   nav:
   - title: Home #Label
-    url: /  #url
+    url: /  #url 
 
 # Theme and colors
 chulapa-skin:
   skin         :  lux
   autothemer  : true
+  vars:
+    chulapa-bg-landingpage-color: "#e8e8e8"
+    background-color: "#e8e8e8"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
