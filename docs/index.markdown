@@ -14,11 +14,11 @@ project_links:
 <div style="text-align: center;" markdown="1">
 <h1> Voyage With Us <small class="text-muted">7 nights on the Alaskan Seas</small></h1>
 
-# Our Story
+<h1 style="color: light;"><a name="our-story"> Our Story </a></h1>
 
-zzz
+<p class="lead"> zzz </p>
 
-# Details
+<h1 style="color: light;"><a name="details"> Details </a></h1>
 
 ![Invitation](https://github.com/jsurya/cheung-surya/blob/main/img/celebrityedge-inv.png?raw=true){: style="display:block; margin-left:auto; margin-right:auto;" width="100%" }
 
@@ -34,6 +34,6 @@ zzz
 
 **Destination**: Alaska
 
-![Ports of Call](https://github.com/jsurya/cheung-surya/blob/main/imgSEA_KTN_JNU_SGY_ENC_YVR_1200x430.gif?raw=true){: style="display:block; margin-left:auto; margin-right:auto;" width="100%" }
+![Ports of Call](https://github.com/jsurya/cheung-surya/blob/main/img/SEA_KTN_JNU_SGY_ENC_YVR_1200x430.gif?raw=true){: style="display:block; margin-left:auto; margin-right:auto;" width="100%" }
 
 </div>
