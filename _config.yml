@@ -27,20 +27,23 @@ url: "https://jsurya.github.io" # the base hostname & protocol for your site, e.
 
 # Build settings
 # theme: chulapa-jekyll
-remote_theme: dieghernan/chulapa
 plugins:
 - jekyll-remote-theme
 - jekyll-include-cache
+remote_theme: dieghernan/chulapa
 
 googlefonts:
- - url: https://fonts.googleapis.com/css2?family=Raleway&family=Rubik&display=swap
+ - url: "https://fonts.googleapis.com/css2?family=Euphoria+Script&family=PT+Mono&display=swap"
+ 
 
 # B. Navigation
 navbar:
   style :  fab
+
   brand:
     title :  Cheung x Surya
     url: /
+    img: 
   nav:
   - title: Home #Label
     url: /  #url
@@ -66,6 +69,8 @@ chulapa-skin:
   vars:
     chulapa-bg-landingpage-color: "#e8e8e8"
     background-color: "#e8e8e8"
+    headings-font-family: "PT Mono"
+    font-family-base: "PT Mono"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -75,12 +80,14 @@ chulapa-skin:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
 #   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/

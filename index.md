@@ -5,7 +5,7 @@ layout: landingpage
 title: Alex & Jess
 subtitle: 09.13.25 @ sea
 header_type: splash
-header_img: "https://github.com/jsurya/cheung-surya/blob/main/img/celebrityedge-ship.jpg?raw=true"
+header_img: "https://github.com/jsurya/cheung-surya/blob/main/img/celebrityedge-shipL.jpg?raw=true"
 project_links:
     - url: https://www.celebritycruises.com/ca/itinerary-details/7-night-alaska-dawes-glacier-from-seattle-washington
       label: Onboard the Celebrity Edge
@@ -32,7 +32,7 @@ After a decade of love, laughter, and unwavering partnership, they're ready to s
 
 ![Invitation](https://github.com/jsurya/cheung-surya/blob/main/img/celebrityedge-inv.png?raw=true){: style="display:block; margin-left:auto; margin-right:auto;" width="100%" }
 
-<h3 style="color:  #e8e8e8;">Itinerary</h3>
+<h3 style="color:  #e8e8e8;">Itinerary </h3>
 
 <strong>Wedding Date</strong>: September 13, 2025 @ 1:00 PM PDT
 
