@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Wow a celebration!
 baseurl:  # the subpath of your site, e.g. /blog
 url: "https://jsurya.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github: [metadata]
 
 # Build settings
 # theme: chulapa-jekyll
@@ -43,7 +44,7 @@ navbar:
   brand:
     title :  Cheung x Surya
     url: /
-    img: 
+    img: "./assets/img/favicon-32x32.png"
   nav:
   - title: Home #Label
     url: /  #url
@@ -71,6 +72,13 @@ chulapa-skin:
     background-color: "#e8e8e8"
     headings-font-family: "PT Mono"
     font-family-base: "PT Mono"
+
+## Countdown Timer Parameters
+utc: 2025-09-13T20:00:00Z
+name: "A & J"
+logo: "./assets/img/favicon-32x32.png"
+description: "Days until it happens"
+externalLink: "https://www.celebritycruises.com/ca/itinerary-details/7-night-alaska-dawes-glacier-from-seattle-washington" #Required
 
 # Exclude from processing.
 # The following items will not be processed, by default.
