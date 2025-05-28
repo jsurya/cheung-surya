@@ -34,8 +34,7 @@ plugins:
 remote_theme: dieghernan/chulapa
 
 googlefonts:
- - url: "https://fonts.googleapis.com/css2?family=Euphoria+Script&family=PT+Mono&display=swap"
- 
+ - url: "https://fonts.googleapis.com/css2?family=DotGothic16&family=Euphoria+Script&family=PT+Mono&display=swap"
 
 # B. Navigation
 navbar:

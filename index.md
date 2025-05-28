@@ -32,14 +32,16 @@ After a decade of love, laughter, and unwavering partnership, they're ready to s
 
   <div class="row">
     <div class="col-sm-12 text-center">
-        <h3 style="color:  #e8e8e8;" class="background-highlight">{{site.name}}</h3>
-        <h2 style="color:  #e8e8e8;" class="background-highlight">09.13.25</h2>
-          <a href="{{site.externalLink}}"><img src="/assets/img/celebrityedge-inv.png"/></a>
+        <h3 class="dotgothic16-regular" style="color:  #e8e8e8;">
+          <div id="defaultCountdown"></div>
+        </h3>
+        <p style="color:  #e8e8e8;" class="text-muted">until the big day!</p>
+          <a href="{{site.externalLink}}"><img src="./assets/img/celebrityedge-inv.png"/></a>
       </div>
     </div> <!-- /row -->
     
   <div class="row">
-    <div style="color:  #e8e8e8;" class="col-sm-8 col-sm-offset-2 text-center"><div id="defaultCountdown"></div></div>
+    <div style="color:  #e8e8e8;" class="col-sm-8 col-sm-offset-2 text-center"></div>
   </div> <!-- /row -->
 
   <div class="row">
@@ -67,7 +69,11 @@ After a decade of love, laughter, and unwavering partnership, they're ready to s
 <a href="https://www.celebritycruises.com/ca/itinerary-details/7-night-alaska-dawes-glacier-from-seattle-washington" target="_blank" class="btn chulapa-btn-project" role="button"><button type="button" class="btn btn-light"> Full Itinerary</button></a>
 
 <script>
-  var countDownDate = new Date(" {{site.utc}} ").getTime();
+  var dateStr = "{{ site.utc | date: '%Y-%m-%dT%H:%M:%SZ' }}";
+  var countDownDate = new Date(dateStr).getTime();
+  if (isNaN(countDownDate)) {
+    console.error("Invalid date:", dateStr);
+  }
   var x = setInterval(function() {
 
     var now = new Date().getTime();
