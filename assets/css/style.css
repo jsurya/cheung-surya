@@ -6,6 +6,7 @@ body {
 }
 #defaultCountdown {
   font-family: "DotGothic16", sans-serif;
+  text-transform:uppercase;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -22,36 +23,44 @@ h2 {
   text-transform:uppercase;
 }
 
-@media(max-width:767px){
-  h1 {
-  }
+.fancy-h2 {
+  text-transform:none;
 }
+
 @media(min-width:768px){
-  h1 {
+  .fancy-h1 {
     font-size:4em;
   }
   h2 {
     font-size:3em;
   }
-
+  .fancy-h2 {
+    font-size:0.6em;
+  }
 }
+
 @media(min-width:992px){
-h1 {
+  .fancy-h1 {
     font-size:4.5em;
   }
   h2 {
     font-size:3.5em;
   }
-
+  .fancy-h2 {
+    font-size:1.5;
+  }
 }
+
 @media(min-width:1200px){
-h1 {
+  .fancy-h1 {
     font-size:4.5em;
   }
   h2 {
     font-size:3.5em;
   }
-
+  .fancy-h2 {
+    font-size: 1.5;
+  }
 }
 .background-highlight {
   background-color: "#e8e8e8";
@@ -59,10 +68,25 @@ h1 {
 
 .dotgothic16-regular {
   font-family: "DotGothic16", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
+  font-size: 3.5em;
 }
 
 .navbar-chulapa-fab {
   height: 0 px;
+}
+
+.fancy-h1 {
+  text-transform:uppercase;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fancy-h2 {
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
 }

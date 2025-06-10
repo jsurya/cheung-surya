@@ -34,7 +34,7 @@ plugins:
 remote_theme: dieghernan/chulapa
 
 googlefonts:
- - url: "https://fonts.googleapis.com/css2?family=DotGothic16&family=Euphoria+Script&family=PT+Mono&display=swap"
+ - url: "https://fonts.googleapis.com/css2?family=DotGothic16&family=Euphoria+Script&family=PT+Mono&family=Playwrite+US+Trad:wght@100..400&display=swap"
 
 # B. Navigation
 navbar:
@@ -71,6 +71,8 @@ chulapa-skin:
     background-color: "#e8e8e8"
     headings-font-family: "PT Mono"
     font-family-base: "PT Mono"
+    carousel-control-color: grey
+    carousel-indicator-active-bg: white
 
 ## Countdown Timer Parameters
 utc: 2025-09-13T20:00:00Z
@@ -78,6 +80,12 @@ name: "A & J"
 logo: "./assets/img/favicon-32x32.png"
 description: "Days until it happens"
 externalLink: "https://www.celebritycruises.com/ca/itinerary-details/7-night-alaska-dawes-glacier-from-seattle-washington" #Required
+
+defaults:
+  - scope:
+      path: "./assets/img/gallery"
+    values:
+      image: gallery
 
 # Exclude from processing.
 # The following items will not be processed, by default.
