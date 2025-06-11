@@ -58,7 +58,7 @@ After a decade of love, laughter, and unwavering partnership, they're ready to s
 ./assets/img/gallery/KH_JessicaAlex-ENG-137.jpg" 
 %}
 
-{% include snippets/carousel.html external=externalgallery interval=2500 random="true" controls="true" indicators="true" %}
+{% include snippets/carousel.html external=externalgallery interval=3000 random="true" controls="true" indicators="true" %}
 
 <h2 style="color:  #e8e8e8;"><a name="details"> Details </a></h2>
 
