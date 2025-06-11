@@ -26,6 +26,10 @@ h2 {
 .fancy-h2 {
   text-transform:none;
 }
+.fancy-h3 {
+  text-transform:none;
+  font: 4em sans-serif;
+}
 
 @media(min-width:768px){
   .fancy-h1 {
@@ -35,7 +39,10 @@ h2 {
     font-size:3em;
   }
   .fancy-h2 {
-    font-size:0.6em;
+    font-size:0.8em;
+  }
+  .fancy-h3 {
+    font-size: 5em;
   }
 }
 
@@ -47,7 +54,10 @@ h2 {
     font-size:3.5em;
   }
   .fancy-h2 {
-    font-size:1.5;
+    font-size:0.8em;
+  }
+  .fancy-h3 {
+    font-size: 5em;
   }
 }
 
@@ -59,7 +69,10 @@ h2 {
     font-size:3.5em;
   }
   .fancy-h2 {
-    font-size: 1.5;
+    font-size:0.8em;
+  }
+  .fancy-h3 {
+    font-size: 5em;
   }
 }
 .background-highlight {
@@ -88,5 +101,12 @@ h2 {
   font-family: "Playwrite US Trad", cursive;
   font-optical-sizing: auto;
   font-weight: 200;
+  font-style: italic;
+}
+
+.fancy-h3 {
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: italic;
 }
