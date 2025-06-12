@@ -54,7 +54,8 @@ navbar:
     url: /#details  #url
   - title: Schedules #Label
     url: /#Schedules  #url
-   
+  - title: FAQ #Label
+    url: /#FAQ  #url   
 footer:
   links:
     - label: "Email"

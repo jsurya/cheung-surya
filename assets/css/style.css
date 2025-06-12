@@ -16,11 +16,18 @@ body {
 	border:none;
 }
 
+.carousel {
+  margin-bottom: 40px;
+}
+
 h1 {
 	text-transform:uppercase;
 }
+
 h2 {
+  margin-top: 50px;
   text-transform:uppercase;
+  margin-top: 30px;
 }
 
 .fancy-h2 {
@@ -33,13 +40,13 @@ h2 {
 
 @media(min-width:768px){
   .fancy-h1 {
-    font-size:4em;
+    font-size: 4em;
   }
   h2 {
-    font-size:3em;
+    font-size: 3em;
   }
   .fancy-h2 {
-    font-size:0.8em;
+    font-size: 0.8em;
   }
   .fancy-h3 {
     font-size: 5em;
@@ -48,13 +55,13 @@ h2 {
 
 @media(min-width:992px){
   .fancy-h1 {
-    font-size:4.5em;
+    font-size: 4.5em;
   }
   h2 {
-    font-size:3.5em;
+    font-size: 3.5em;
   }
   .fancy-h2 {
-    font-size:0.8em;
+    font-size: 0.8em;
   }
   .fancy-h3 {
     font-size: 5em;
@@ -63,13 +70,13 @@ h2 {
 
 @media(min-width:1200px){
   .fancy-h1 {
-    font-size:4.5em;
+    font-size: 4.5em;
   }
   h2 {
-    font-size:3.5em;
+    font-size: 3.5em;
   }
   .fancy-h2 {
-    font-size:0.8em;
+    font-size: 0.8em;
   }
   .fancy-h3 {
     font-size: 5em;

@@ -11,10 +11,10 @@ header_img: "/assets/img/gallery/KH_JessicaAlex-ENG-77.jpg"
 <div style="text-align: center;" markdown="1">
 <div id= "fancyH1" class="fancy-h1" style="color: #e8e8e8;">
   Voyage With Us<small id= "fancyH2" class="fancy-h2 text-muted"> on the Alaskan Seas</small> </div>
+<br>
 <h3 style="color:  #e8e8e8" class="col-sm-offset-2 col-sm-12 text-center">{{ site.utc | date: "%A %B %-d, %Y" }}</h3>
 <div class="row">
   <div class="row">
-  
   </div>  
 </div>
   <div class="col-sm-12 text-center">
@@ -44,6 +44,7 @@ Ten years of Alex and Jess building a life together, a life marked by consistent
 After a decade of love, laughter, and unwavering partnership, they're ready to say 'I do' and celebrate a marriage long overdue.
 </p>
 
+<div id="carousel">
 {% assign externalgallery = 
 "
 ./assets/img/gallery/KH_JessicaAlex-ENG-116.jpg,
@@ -58,7 +59,8 @@ After a decade of love, laughter, and unwavering partnership, they're ready to s
 %}
 
 {% include snippets/carousel.html external=externalgallery interval=3000 random="true" controls="true" indicators="true" %}
-<br>
+</div>
+
 <h2 style="color:  #e8e8e8;"><a name="details"> Details </a></h2>
 
 ![Invitation](/assets/img/celebrityedge-inv.png){: style="display:block; margin-left:auto; margin-right:auto;" width="100%" }
@@ -69,9 +71,11 @@ After a decade of love, laughter, and unwavering partnership, they're ready to s
 
 <strong>Port of Departure</strong>: <a href="https://g.co/kgs/WEs2DXW"> Smith Cove Pier 91 in Seattle, WA, United States</a>
 
-<strong>Port of Return</strong>: <a href="https://g.co/kgs/sAbEMMK"> Canada Place Cruise Ship Terminal in Vancouver, BC, Canada </a>
+<strong>Port of Return</strong>: <a href="https://g.co/kgs/sAbEMMK"> Canada Place Cruise Ship Terminal in Vancouver, BC, Canada</a>
 
+<br><br>
 <strong class="lead">Destination: </strong>
+
 <div class="fancy-h3">Alaska</div>
 <hr style="width:50%">
 <br>
@@ -108,13 +112,20 @@ After a decade of love, laughter, and unwavering partnership, they're ready to s
 <strong>3:00-3:30 PM</strong>: Tea Ceremony
 
 <strong>3:30 PM</strong>: Farewells
-<br>
-<hr style="width:50%">
-<br>
+
+<hr style="margin-top: 40px;margin-bottom: 40px;width:50%">
+
 <h3 style="color:  #e8e8e8;">Group Excursion</h3>
 <em class="lead"> September 15, 2025 @ Mendenhall Glacier, Juneau, Alaska </em>
 
 <p> As a continuation of our celebration together, we would like to invite our cherished guests to join us on a private bus tour to the spectacular <a href="https://www.alaska.org/detail/mendenhall-glacier">Mendenhall Glacier</a> on Day 4 of the cruise in Juneau. Stay tuned for more details!</p> 
+
+<h2 style="color:  #e8e8e8;"><a name="FAQ"> FAQ </a></h2>
+<p class="lead">What is the dress code for the wedding ceremony?</p>
+<p>Following the guidelines for <a href="https://www.celebritycruises.com/ca/faqs/onboard-dress-code">Celebrity Cruises dining room dress code</a>, the preferred attire for guests attending the ceremony is <b>Evening Chic</b></p>
+<br>
+<p class="lead">Is there a gift registry?</p>
+<p>Your presence at our cruise wedding is already the greatest gift we could ever ask for, but if you are still considering a gift, <u>monetary contributions</u> are preferred (e-transfer to cheungsurya@gmail.com) as there are restrictions with valuables when traveling across the US/Canadian border</p>
 
 <script>
   var dateStr = "{{ site.utc | date: '%Y-%m-%dT%H:%M:%SZ' }}";
